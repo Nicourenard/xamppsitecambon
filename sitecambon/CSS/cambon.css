@@ -1,0 +1,73 @@
+
+nav {
+    background-color: rgb(226, 176, 176) ;
+}
+
+h1{
+    color: blue;
+}
+
+/* FLUX */
+.flux{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*BUTTON*/
+.button{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.button--black{
+    background-color: black;
+    color: white;
+}
+
+/* HEADER */
+
+.header{
+    background-color: grey;
+    position:fixed;
+    width: 100%;
+
+}
+
+.header_container{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.header_logo {
+        width: 150px;
+        filter: brightness(0) saturate(100%) invert (99%)
+}
+
+.header_list-link{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    height: 100%;
+}
+
+.header_link{
+    color: white;
+}
+
+.header__quick-actions {
+    display: flex;
+}
+/* Aligment des zones de saisie*/
+labelalignezonesaisie{
+
+	display: block;
+	width: 150px;
+	float: left;
+
+}

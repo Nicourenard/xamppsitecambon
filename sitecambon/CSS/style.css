@@ -1,0 +1,120 @@
+/* 
+Convention de nommage : BEM 
+Block
+Element
+Modifier
+*/
+
+
+/* couleur de fond bleu clair,    , */
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding:  0 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* definir la largeur du logo  */
+.header__logo {
+    width: 100px;
+    /* filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(57%) hue-rotate(234deg) brightness(115%) contrast(100%); */
+}
+
+.header__list-link {    
+    padding-top: 10px;
+    display: flex;
+       
+}
+
+.header__quick-actions {
+    display: flex;
+    padding-right: 10px;
+}
+/* mettre de l'espace entre les liens de navigation*/
+.header__link {
+
+    padding:  0 10px; 
+}
+
+/* mettre de l'espace entre les paragraphes*/
+.paragraphe {
+
+    padding-bottom: 10px;
+}
+/* mettre de l'espace entre les paragraphes*/
+.padingtop30 {
+
+    padding-top: 30px;
+}
+/* mettre de l'espace entre les paragraphes*/
+.padingtop100 {
+
+    padding-top: 100px;
+}
+/* mettre de l'espace entre les paragraphes*/
+.padingtop100left {
+
+    padding-top: 100px;
+    align:left
+}
+
+/* mettre de l'espace entre les paragraphes*/
+.padingtop10 {
+
+    padding-top: 10px;
+}
+/* decaler droite de 10px */
+.padingleft10 {
+
+    padding-left: 10px;
+}
+/* decaler droite de 100px */
+.padingleft10 {
+
+    padding-left: 100px;
+}
+/* decaler droite de 20px */
+.padingleft20 {
+
+    padding-left: 20px;
+}
+/* mettre de l'espace entre les paragraphes*/
+.padinghaut {
+
+    padding-left: 10px;
+}
+.content_link{
+    justify-content: space-between;
+}
+
+
+
+/* positionement boite de recherche */
+.recherche {
+    background-color: lightblue;
+ /*   display: flex;
+    justify-content: space-between;   */
+    padding:  0 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* Alignement des zones de saisie*/
+labelalignezonesaisie{
+	display: block;
+	width: 150px;
+	float: left; 
+    padding-bottom: 30px;
+
+}
+
+/* pied de page couleur de fond bleu clair,    , */
+.footer {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding:  0 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
